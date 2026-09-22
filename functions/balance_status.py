@@ -7,5 +7,3 @@ def balance_status(balance):
     else:
         print("정상 잔액")
     return balance
-
-balance = balance_status(float(input("잔액입력")))
